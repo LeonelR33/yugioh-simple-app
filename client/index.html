@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>YuGiOh</title>
+</head>
+<body>
+    <div id="root">
+        <input id="searchBar">
+        <button id="searchBarBtn">search</button>
+        <div id="monsterFilters">
+            <label>type: </label>
+            <select id="selectType">
+                <option></option>
+                <option>spell card</option>
+                <option>trap card</option>
+                <option>normal monster</option>
+                <option>normal tuner monster</option>
+                <option>effect monster</option>
+                <option>flip effect monster</option>
+                <option>gemini monster</option>
+                <option>pendulum effect monster</option>
+                <option>pendulum flip effect monster</option>
+                <option>pendulum normal monster</option>
+                <option>pendulum tuner effect monster</option>
+                <option>ritual effect monster</option>
+                <option>ritual monster</option>
+                <option>spirit monster</option>
+                <option>toon monster</option>
+                <option>tuner monster</option>
+                <option>union effect monster</option>
+            </select>
+
+            <label>sort by: </label>
+            <select id="selectSort">
+                <option></option>
+                <option>name</option>
+                <option>atk</option>
+                <option>def</option>
+                <option>level</option>
+            </select>
+
+            <label>attribute: </label>
+            <select id="selectAttribute">
+                <option></option>
+                <option>dark</option>
+                <option>divine</option>
+                <option>earth</option>
+                <option>fire</option>
+                <option>light</option>
+                <option>water</option>
+                <option>wind</option>
+            </select>
+
+            <label>race: </label>
+            <select id="selectRace">
+                <option></option>
+                <option>aqua</option>
+                <option>beast</option>
+                <option>beast-warrior</option>
+                <option>creator-god</option>
+                <option>cyberse</option>
+                <option>dinosaur</option>
+                <option>divine-beast</option>
+                <option>dragon</option>
+                <option>fairy</option>
+                <option>fiend</option>
+                <option>fish</option>
+                <option>insect</option>
+                <option>machine</option>
+                <option>plant</option>
+                <option>psychic</option>
+                <option>reptile</option>
+                <option>rock</option>
+                <option>sea serpent</option>
+                <option>spellcaster</option>
+                <option>thunder</option>
+                <option>warrior</option>
+                <option>winged beast</option>
+                <option>wyrm</option>
+                <option>zombie</option>
+            </select>
+
+            <label>order: </label>
+            <select id="selectOrder">
+                <option></option>
+                <option>asc</option>
+                <option>desc</option>
+            </select>
+
+            <button id="applyBtn">apply</button>
+        </div>
+
+        <div id="cardsContainer">   
+        </div>
+        
+        <button id="prevBtn" class="btn">prev</button>
+        <button id="nextBtn" class="btn">next</button>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

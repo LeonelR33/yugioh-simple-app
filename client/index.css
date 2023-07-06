@@ -1,0 +1,47 @@
+#root {
+    text-align: center;
+}
+
+#applyBtn:hover {
+    cursor: pointer;
+}
+
+#searchBarBtn:hover {
+    cursor: pointer;
+}
+
+#cardsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75vw;
+    max-width: 1250px;
+    min-width: 200px;
+}
+
+#cardsContainer div {
+    margin:5px;
+    height: fit-content;
+    transition: all 0.7s;
+}
+
+.card img {
+    width: 300px;
+    object-fit: contain;
+}
+
+#cardsContainer div:hover {
+    scale: 115%;
+    cursor: pointer;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px 10px;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
